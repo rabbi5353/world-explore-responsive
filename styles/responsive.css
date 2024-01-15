@@ -1,4 +1,4 @@
-/* header section responsive */
+/* header section responsive start */
 
 @media screen and (max-width: 600px) {
     .container {
@@ -53,4 +53,23 @@
         padding: 32px 24px;
         background-position: center;
     }
+
+    /* header section responsive end */
+
+    /* popular tour responsive start */
+
+    .popular_tour_section {
+        flex-direction: column;
+    }
+
+    .popular_tour_section_content_side {
+        width: 100%;
+    }
+
+    .popular_tour_section_img_side img {
+        margin: 24px auto;
+    }
+
+
+
 }
