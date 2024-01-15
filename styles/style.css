@@ -48,6 +48,10 @@ body {
     color: #FF5400;
 }
 
+.mobile_responsive_line {
+    display: none;
+}
+
 .navbar a {
     text-decoration: none;
     color: #424247;
@@ -72,18 +76,20 @@ body {
 
 .header_banner_title {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     padding-top: 106px;
     padding-bottom: 24px;
 }
 
 .header_banner_para {
+    width: 676px;
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     padding-bottom: 238px;
+    margin: 0 auto;
 }
 
 .header_banner_find_now_section {
@@ -125,4 +131,4 @@ body {
     gap: 8px;
 }
 
-/* header section styles  start*/
+/* header section styles  end*/
