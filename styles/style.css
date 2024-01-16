@@ -20,6 +20,20 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+h5 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
 .btn {
     color: #FFF;
     font-size: 20px;
@@ -143,25 +157,18 @@ body {
     gap: 8px;
 }
 
-/* header section styles  end*/
 
 /* popular tour section start */
 
 .popular_tour_section {
     display: flex;
     margin-top: 100px;
+    margin-bottom: 100px;
     justify-content: space-between;
 }
 
 .popular_tour_section_content_side {
     width: 45%;
-}
-
-.popular_tour_section_content_side h2 {
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
 }
 
 .popular_tour_section_content_side p,
@@ -188,4 +195,47 @@ body {
 
 .popular_tour_section_img_side img {
     width: 100%;
+}
+
+
+/* Destination section start */
+
+.destination_section {
+    text-align: center;
+}
+
+.destination_section p {
+    width: 643px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.destination_images_top_row,
+.destination_images_mid_row,
+.destination_images_btm_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+
+.destination_images_top_row {
+    position: relative;
+}
+
+.maldives {
+    position: absolute;
+    left: 226.5px;
+    top: 132.5px;
+}
+
+.indonesia {
+    position: absolute;
+    top: 132.5px;
+    left: 817px;
 }
