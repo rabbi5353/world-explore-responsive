@@ -91,6 +91,10 @@ h5 {
     color: #FF5400;
 }
 
+.logo_side h2 {
+    margin-bottom: 0px;
+}
+
 .mobile_responsive_line {
     display: none;
 }
@@ -417,4 +421,44 @@ hr {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+}
+
+/* footer section styles */
+
+.footer_section {
+    width: 100%;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 110px 284px;
+    text-align: center;
+}
+
+.footer_logo {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer_para {
+    width: 769px;
+    margin: 0 auto;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+
+.fa-x-twitter,
+.fa-facebook-f,
+.fa-instagram,
+.fa-github {
+    font-size: 24px;
+    color: #131318;
+}
+
+.footer_hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 50px;
 }

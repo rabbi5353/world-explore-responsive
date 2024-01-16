@@ -160,9 +160,24 @@
     }
 
 
+    /* footer section responsive */
+    .footer_section {
+        padding: 32px 44px;
+    }
 
 
+    .footer_para {
+        width: 80%;
+    }
 
+    .footer_icons {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .footer_hr {
+        margin-bottom: 24px;
+    }
 
 
 
