@@ -130,6 +130,39 @@
         width: 100%;
     }
 
+    /* Newsletter section responsive */
+    .newsletter_section {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .newsletter_left_side {
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .newsletter_left_para {
+        font-size: 14px;
+    }
+
+    .newsletter_left_side .email {
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+
+    .newsletter_right_side {
+        width: 100%;
+    }
+
+    .newsletter_offer_card {
+        max-width: 80%;
+    }
+
+
+
+
+
 
 
 
