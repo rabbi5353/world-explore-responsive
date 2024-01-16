@@ -46,6 +46,7 @@
     .header_banner_para {
         width: 80%;
         margin: 0 auto;
+        font-size: 14px;
     }
 
     .header_banner_find_now_section {
@@ -79,6 +80,11 @@
 
     .popular_tour_section_content_side {
         width: 100%;
+    }
+
+    .popular_tour_section_content_side ul li,
+    .popular_tour_section_content_side p {
+        font-size: 14px;
     }
 
     .popular_tour_section_img_side img {
@@ -124,11 +130,48 @@
 
     .choose_us_top_para {
         width: 80%;
+        font-size: 14px;
     }
 
     .choose_us_card_btm {
         width: 100%;
     }
+
+    .choose_us_cmn_card p {
+        font-size: 14px;
+    }
+
+
+    /* About us section */
+    .about_us_section {
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+    }
+
+    .about_us_section img {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .about_us_content {
+        width: 90%;
+    }
+
+    .about_us_content_para {
+        font-size: 14px;
+    }
+
+    .about_us_btn {
+        margin-top: 24px;
+    }
+
+
+
+
+
+
+
 
     /* Newsletter section responsive */
     .newsletter_section {
@@ -168,6 +211,7 @@
 
     .footer_para {
         width: 80%;
+        font-size: 14px;
     }
 
     .footer_icons {
@@ -179,10 +223,7 @@
         margin-bottom: 24px;
     }
 
-
-
-
-
-
-
+    .copyright_info {
+        font-size: 14px;
+    }
 }

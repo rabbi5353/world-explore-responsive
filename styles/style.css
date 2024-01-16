@@ -303,6 +303,7 @@ h5 {
 .choose_us_top_para {
     width: 643px;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 .choose_us_card_top {
@@ -324,6 +325,7 @@ h5 {
 }
 
 .choose_us_cmn_card p {
+    font-size: 16px;
     margin-top: 16px;
 }
 
@@ -345,6 +347,36 @@ h5 {
 }
 
 
+/* About us section */
+.about_us_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about_us_section img {
+    width: 540px;
+    height: 430px;
+    border-radius: 16px;
+}
+
+.about_us_content {
+    width: 45%;
+}
+
+.about_us_content_para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about_us_btn {
+    margin-top: 32px;
+}
+
+
+
 /* Newsletter section styles */
 .newsletter_section {
     display: flex;
@@ -358,6 +390,8 @@ h5 {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
 }
 
 .newsletter_left_para {
@@ -440,6 +474,7 @@ hr {
 .footer_para {
     width: 769px;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 .footer_icons {
@@ -461,4 +496,11 @@ hr {
 .footer_hr {
     border: 1px solid rgba(19, 19, 24, 0.10);
     margin-bottom: 50px;
+}
+
+.copyright_info {
+    color: #131318;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
