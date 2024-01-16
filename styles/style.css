@@ -27,11 +27,22 @@ h2 {
     margin-bottom: 24px;
 }
 
+.rectangle_cmn {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
 h5 {
     color: #fff;
     text-align: center;
     font-size: 28px;
     font-weight: 800;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
@@ -224,18 +235,45 @@ h5 {
 }
 
 
-.destination_images_top_row {
-    position: relative;
+
+.rectangle_1 {
+    width: 573px;
+    height: 300px;
+    background: url("../images/rectangle-5.png");
 }
 
-.maldives {
-    position: absolute;
-    left: 226.5px;
-    top: 132.5px;
+.rectangle_2 {
+    width: 573px;
+    height: 300px;
+    background: url("../images/rectangle-8.png");
 }
 
-.indonesia {
-    position: absolute;
-    top: 132.5px;
-    left: 817px;
+.rectangle_3 {
+    width: 374px;
+    height: 286px;
+    background: url("../images/rectangle-6.png");
+}
+
+.rectangle_4 {
+    width: 474px;
+    height: 286px;
+    background: url("../images/rectangle-7.png");
+}
+
+.rectangle_5 {
+    width: 274px;
+    height: 286px;
+    background: url("../images/rectangle-9.png");
+}
+
+.rectangle_6 {
+    width: 473px;
+    height: 300px;
+    background: url("../images/rectangle-11.png");
+}
+
+.rectangle_7 {
+    width: 673px;
+    height: 300px;
+    background: url("../images/rectangle-10.png");
 }
