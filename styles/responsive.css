@@ -109,5 +109,32 @@
     }
 
 
+    /* Choose us section responsive */
+    .choose_us_section {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .choose_us_card_top {
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .choose_us_top_para {
+        width: 80%;
+    }
+
+    .choose_us_card_btm {
+        width: 100%;
+    }
+
+
+
+
+
+
+
 
 }
