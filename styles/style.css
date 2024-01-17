@@ -65,7 +65,7 @@ h5 {
 
 
 
-/* header section styles  start*/
+/* header section styles*/
 
 .navbar_section {
     display: flex;
@@ -153,33 +153,58 @@ h5 {
 }
 
 .find_now_single_box {
-    width: 174px;
-    height: 52px;
+    max-width: 174px;
     border-radius: 8px;
     background: #FFF;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.when_input,
+.select_type_input,
+.where_go_input {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     font-weight: 400;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 16px 15px;
+    border-radius: 8px;
 }
 
-.where_go {
-    justify-content: left;
-    padding-left: 16px;
+.when_icon,
+.select_type_icon {
+    width: 50%;
 }
 
-.find_now {
-    background: #FF5400;
+.find_now_icon {
+    padding: 14px 0px 14px 35px;
+    cursor: pointer;
+}
+
+.find_now_btn {
     color: #FFF;
+    background: none;
     font-weight: 700;
-    justify-content: center;
-    gap: 8px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    padding: 14px 34px 14px 8px;
+    cursor: pointer;
+}
+
+#find_now {
+    background: #FF5400;
+    align-items: center;
+    height: 52px;
 }
 
 
-/* popular tour section start */
+
+/* popular tour section styles */
 
 .popular_tour_section {
     display: flex;
@@ -219,7 +244,8 @@ h5 {
 }
 
 
-/* Destination section start */
+
+/* Destination section styles */
 
 .destination_section {
     text-align: center;
@@ -243,8 +269,6 @@ h5 {
     justify-content: space-between;
     margin-bottom: 24px;
 }
-
-
 
 .rectangle_1 {
     width: 573px;
@@ -287,6 +311,7 @@ h5 {
     height: 300px;
     background: url("../images/rectangle-10.png");
 }
+
 
 
 /* Choose us section styles */
@@ -347,7 +372,9 @@ h5 {
 }
 
 
+
 /* About us section */
+
 .about_us_section {
     display: flex;
     justify-content: space-between;
@@ -378,6 +405,7 @@ h5 {
 
 
 /* Newsletter section styles */
+
 .newsletter_section {
     display: flex;
     justify-content: space-between;
@@ -457,6 +485,8 @@ hr {
     text-align: center;
 }
 
+
+
 /* footer section styles */
 
 .footer_section {
@@ -491,6 +521,7 @@ hr {
 .fa-github {
     font-size: 24px;
     color: #131318;
+    cursor: pointer;
 }
 
 .footer_hr {

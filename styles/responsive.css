@@ -1,8 +1,7 @@
-/* header section responsive start */
-
 @media screen and (max-width: 600px) {
 
     /* common styles start*/
+
     .container {
         margin: 0 20px;
     }
@@ -16,8 +15,9 @@
         margin-top: 16px;
     }
 
-    /* common styles end*/
 
+
+    /* header section responsive */
 
     .navbar_section {
         margin: 20px auto;
@@ -40,6 +40,11 @@
     }
 
     .header_banner_title {
+        padding-top: 0px;
+        padding-bottom: 8px;
+    }
+
+    .header_banner_title {
         font-size: 1.5rem;
     }
 
@@ -47,6 +52,7 @@
         width: 80%;
         margin: 0 auto;
         font-size: 14px;
+        padding-bottom: 32px;
     }
 
     .header_banner_find_now_section {
@@ -57,7 +63,7 @@
         gap: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        margin: 70px auto;
+        margin: 0 auto;
     }
 
     .find_now_single_box {
@@ -65,12 +71,13 @@
     }
 
     .header_banner {
-        padding: 32px 24px;
         background-position: center;
+        padding: 32px 24px;
     }
 
 
-    /* popular tour responsive start */
+
+    /* popular tour responsive */
 
     .popular_tour_section {
         flex-direction: column;
@@ -93,7 +100,7 @@
 
 
 
-    /* Destination section start */
+    /* Destination section responsive */
 
     .destination_images_top_row,
     .destination_images_mid_row,
@@ -115,7 +122,9 @@
     }
 
 
+
     /* Choose us section responsive */
+
     .choose_us_section {
         margin-top: 24px;
         margin-bottom: 24px;
@@ -142,7 +151,9 @@
     }
 
 
-    /* About us section */
+
+    /* About us section responsive */
+
     .about_us_section {
         flex-direction: column-reverse;
         margin-bottom: 0px;
@@ -168,12 +179,8 @@
 
 
 
-
-
-
-
-
     /* Newsletter section responsive */
+
     .newsletter_section {
         flex-direction: column;
         gap: 16px;
@@ -203,11 +210,12 @@
     }
 
 
+
     /* footer section responsive */
+
     .footer_section {
         padding: 32px 44px;
     }
-
 
     .footer_para {
         width: 80%;
